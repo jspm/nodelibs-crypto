@@ -2,7 +2,6 @@
   "main": "./crypto.js",
   "name": "jspm-nodelibs-crypto",
   "version": "0.2.0",
-  "registry": "github",
   "map": {
     "./crypto.js": {
       "node": "@node/crypto",
@@ -10,7 +9,7 @@
     }
   },
   "dependencies": {
-    "crypto-browserify": "npm:crypto-browserify@^3.11.0"
+    "crypto-browserify": "^3.11.0"
   },
   "jspmNodeConversion": false
 }
